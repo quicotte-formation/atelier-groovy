@@ -1,4 +1,4 @@
-// Types variables : avec def
+// Typage faible: avec def
 def a = 1                                   // Integer
 a = 99999999999                             // Long
 a = 999999999999999999999999999999999999    // BigInteger
@@ -22,7 +22,7 @@ b = """"
 def regExp = /.*foo.*/                      // String: pattern expression régulière
 b = true                                    // Boolean
 
-// Types invariables
+// Typage fort
 int i = 123                                 // Integer
 // i = 'coucou'                             // ERREUR
 i = 12.34                                   // Interger : 12
