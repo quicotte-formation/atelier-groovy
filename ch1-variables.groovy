@@ -13,7 +13,7 @@ b = '''
     le
     monde
 ''' // ou son équivalent:
-b = """"
+b = """
     Bonjour
     tout
     le
