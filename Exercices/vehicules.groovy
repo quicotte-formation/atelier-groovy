@@ -1,11 +1,14 @@
-import vehicule.Velo
+import vehicule.*
 
 def vehicules = []
 
-vehicule += new Velo()
+vehicules += new Velo()
+vehicules += new Voiture()
 
 
 for(Vehicule v in vehicules){
 
     v.avancer()
 }
+
+print vehicules
