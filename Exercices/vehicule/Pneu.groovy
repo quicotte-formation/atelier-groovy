@@ -6,6 +6,11 @@ class Pneu{
     def _modele = "turbo"
 
     def Pneu(diam, modele, marque){
+
+        if( marque!='michelin' ){
+            throw new MarqueException()
+        }
+
         _modele = modele
         _dimension = diam
         _marque = marque
