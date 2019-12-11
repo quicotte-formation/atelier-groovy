@@ -1,8 +1,15 @@
 package vehicule
 
-import vehicule.Vehicule
+import vehicule.*
 
 class Velo extends Vehicule{
+
+    List<Roue> _roues=[]
+
+    def Velo(){
+        _roues += new Roue()// Roue avant
+        _roues += new Roue()// Roue arrière
+    }
 
     def avancer(){
         _coordZ ++
